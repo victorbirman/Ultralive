@@ -9,7 +9,9 @@ font-family: 'Anton', sans-serif;
   border: solid 2px black;
   border-radius: 5px;
   aspect-ratio: 16/9;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  background-color: #dedede
+
 }
 
 .card:hover {
@@ -133,5 +135,7 @@ h2 {
 
 
 .title-card {
+  margin-top: 0;
+  margin-bottom: 0;
   color: black;
 }
