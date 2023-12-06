@@ -11,13 +11,14 @@ font-family: 'Anton', sans-serif;
   position: relative;
   aspect-ratio: 16/9;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out
 }
 
 .card:hover {
   transform: scale(1.01);
+  border: solid rgba(158, 36, 214, 0.44);
   
-  box-shadow: 0px 0px 18px 1px rgba(36, 214, 214, 0.82);
+  box-shadow: 0px 0px 24px 1px rgba(158, 36, 214, 0.22);
 }
 
 video {
