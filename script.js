@@ -58,3 +58,15 @@ function updateCountdown() {
 
 // Initial call to start the countdown
 updateCountdown();
+
+const imageContainer = document.querySelector(".image-container");
+let currentIndex = 0;
+
+function rotateImages() {
+  currentIndex = (currentIndex + 1) % 3;
+  const translateValue = -currentIndex * 100;
+  imageContainer.style.transform = `translateX(${translateValue}%)`;
+}
+
+// Change the rotation interval (in milliseconds) as needed
+const rotationInterval = setInterval(rotateImages, 3000);
