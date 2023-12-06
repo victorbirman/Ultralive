@@ -35,9 +35,7 @@ video {
   grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
   grid-template-rows: repeat(2, auto); /* Two rows */
   gap: 10px; /* Adjust the gap between cards as needed */
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr;
-  }
+
 }
 
 
@@ -47,6 +45,17 @@ video {
   grid-column: span 2;
   grid-row: span 2; /* Make the first card span two columns */
 }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr); /* Change to two columns on smaller screens */
+  }
+
+  .card:first-child {
+    grid-column: span 1; /* Make the first card span two columns on smaller screens */
+  }
+}
+
 
 h1, h2 {
 
