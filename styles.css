@@ -187,3 +187,41 @@ h2 {
   gap: 15px; /* Adjust the gap between cards as needed */
 
 }
+
+
+/* COUNTDOWN */
+
+
+
+.countdown {
+  display: flex;
+  gap: 2px;
+  
+}
+
+.counter-item {
+  text-align: center;
+  color: white;
+
+}
+
+
+
+.digits {
+  box-shadow: 0px -4px 12px rgb(0, 0, 0);
+  width: 40px;
+  font-size: 1.5rem;
+  background: linear-gradient(to bottom, hsl(281, 71%, 90%) 0%, rgb(158, 36, 214) 50%, #000 50%);
+}
+
+.counter-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.6rem;
+}
+
+
+.dots {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
