@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Iterate through each card element
   cardElements.forEach(function (cardElement, index) {
     // Add event listener for mouseover
-    cardElement.addEventListener("mouseover", function () {
-      // Play the corresponding video when mouseover occurs
-      if (index === 0) videoElements[index].play();
-      if (index === 3) videoElements[1].play();
-      if (index === 4) videoElements[2].play();
-    });
+    // cardElement.addEventListener("mouseover", function () {
+    //   // Play the corresponding video when mouseover occurs
+    //   if (index === 0) videoElements[index].play();
+    //   if (index === 3) videoElements[1].play();
+    //   if (index === 4) videoElements[2].play();
+    // });
 
     // Add event listener for mouseleave
     cardElement.addEventListener("mouseleave", function () {
