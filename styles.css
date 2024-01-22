@@ -39,7 +39,10 @@ video {
 
 }
 
+.card img {
+  max-width: 100%;
 
+}
 
 
 .meta-container .card:first-child {
